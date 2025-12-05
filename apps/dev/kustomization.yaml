@@ -10,7 +10,8 @@ namespace: study-app
 namePrefix: dev-
 
 images:
-  - name: backend
-    newTag: dev
-  - name: frontend
-    newTag: dev
+  - name: ghcr.io/sitol/study-app-api:backend-v0.2.0
+    newTag: backend-v0.2.0
+  - name: ghcr.io/sitol/study-app-web:frontend-v0.1.0
+    newTag: frontend-v0.1.0
+
